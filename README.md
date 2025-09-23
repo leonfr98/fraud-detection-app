@@ -13,11 +13,11 @@
 ---
 
 ## 🖥 Running Locally
-Clone the repo and install requirements:
+streamlit run app.py
 
 
 
-## 📂 Test Data File Structure:
+## 📂 Test Data File Structure (for Metrics tab):
 
 Column Descriptions
 
