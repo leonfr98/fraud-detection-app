@@ -5,17 +5,20 @@
       (out of 1.85M in total)
 - The model is an ensemble of XGBoost and Light GBM models
 
+
+
 ---
 
 ## 🚀 Live Demo
 👉 [Streamlit Cloud App](https://fraud-detection-app-bxejrzq5zjleniz8ktbnfa.streamlit.app/)  
 
+- The application consists of 3 tabs: ℹ️ "About", 🔮 "Prediction", 📊 "Metrics"
+
+		- ℹ️ "About": holds this README.md file
+		- 🔮 "Prediction" : decides whether transaction is FRAUD/LEGIT based on user's input
+		- 📊 "Metrics" : allows user to run series of predictions based on his/her data file. See data file structure below
+
 ---
-
-## 🖥 Running Locally
-streamlit run app.py
-
-
 
 ## 📂 Test Data File Structure (for Metrics tab):
 
@@ -42,3 +45,7 @@ tx_count_1h: Number of transactions in the last 1 hour
 tx_count_24h: Number of transactions in the last 24 hours
 
 is_fraud: Target (0 = Legit, 1 = Fraud) → only required for evaluation, not for single predictions
+
+
+## 🖥 Running Locally
+streamlit run app.py
